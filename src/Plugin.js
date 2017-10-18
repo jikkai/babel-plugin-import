@@ -61,6 +61,9 @@ export default class Plugin {
         addSideEffect(file.path, `${path}/style`);
       } else if (style === 'css') {
         addSideEffect(file.path, `${path}/style/css`);
+      } else if (style === 'theme-default') {
+        const stylePath = join(path, `../${style}`);
+        addSideEffect(file.path, `${stylePath}`);
       }
     }
     return this.selectedMethods[methodName];

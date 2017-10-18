@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-import",
-  "version": "1.6.2",
-  "description": "Component modular import plugin for babel.",
+  "name": "babel-plugin-svelteflat",
+  "version": "0.3.0",
+  "description": "[Svelte Flat Ver.]Component modular import plugin for babel.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/babel-plugin-import"
+    "url": "https://github.com/jikkai/babel-plugin-svelteflat"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -19,9 +19,10 @@
   ],
   "keywords": [
     "babel-plugin",
-    "antd"
+    "svelte",
+    "svelte-flat"
   ],
-  "author": "chencheng <sorrycc@gmail.com>",
+  "author": "chencheng <sorrycc@gmail.com>, Jikkai Xiao <sonne@asaki.me>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^7.0.0-beta.2",
